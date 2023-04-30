@@ -10,13 +10,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #F8F8F8;
+    background: radial-gradient(circle, rgba(0,16,36,1) 0%, rgba(0,164,255,1) 100%);;
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
     width: 800px;
     max-width: 90%;
-    background: #fff;
+    background: rgb(111, 218, 254)  ;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .brand {
@@ -40,7 +40,12 @@ section.chat__section {
     padding-top: 40px;
 }
 textarea {
-    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    width: 98%;
+    border:none;
+    border-radius: 10px;
+    resize: none;
     border: none;
     padding: 20px;
     font-size: 16px;
@@ -56,12 +61,12 @@ textarea {
     position: relative;
 }
 .incoming {
-    background: #8F8BE8;
+    background: blue;
     color: #fff;  
 }
 .outgoing {
-    background: #e9eafd;
-    color: #787986;
+    background: #00308F;
+    color: white;
     margin-left: auto;
 }
 .message h4 {
